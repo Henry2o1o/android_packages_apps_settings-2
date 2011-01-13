@@ -171,4 +171,8 @@
     <!-- Wi-Fi settings screen, error message when the region code could not be set [CHAR LIMIT=50]. -->
     <string name="wifi_setting_countrycode_error">There was a problem setting the region code.</string>
     <string name="wifi_setting_countrycode_default">Default</string>
+
+    <!-- Device Hostname -->
+    <string name="device_hostname">Device hostname</string>
+
 </resources>
