@@ -72,6 +72,21 @@
 
     </dashboard-category>
 
+    <!-- CUSTOMIZATION -->
+    <dashboard-category
+            android:id="@+id/custom_section"
+            android:title="@string/header_category_custom" >
+
+        <!-- Tesla Coil -->
+        <dashboard-tile
+                android:id="@+id/teslacoil"
+                android:title="@string/custom_title"
+                android:fragment="com.tesla.teslacoil.TeslaCoil"
+                android:icon="@drawable/ic_teslacoil"
+                />
+
+    </dashboard-category>
+
     <!-- DEVICE -->
     <dashboard-category
             android:id="@+id/device_section"
