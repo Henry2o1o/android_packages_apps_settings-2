@@ -14,7 +14,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- About phone screen, Tesla version -->
-    <string name="mod_version">Tesla version</string>
+    <string name="tesla_version">Tesla version</string>
     <string name="mod_version_default">Unknown</string>
     <string name="model_name">Model name</string>
 
