@@ -40,6 +40,22 @@
                 android:title="@string/device_feedback">
         </PreferenceScreen>
 
+        <!-- Device status - launches activity -->
+        <PreferenceScreen android:key="status_info"
+                android:title="@string/device_status"
+                android:summary="@string/device_status_summary">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.android.settings"
+                    android:targetClass="com.android.settings.deviceinfo.Status" />
+        </PreferenceScreen>
+
+        <!-- Manual -->
+        <PreferenceScreen
+                android:key="manual"
+                android:title="@string/manual">
+            <intent android:action="android.settings.SHOW_MANUAL" />
+        </PreferenceScreen>
+
         <!-- Device hardware model -->
         <Preference android:key="device_model"
                 style="?android:preferenceInformationStyle"
