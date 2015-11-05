@@ -505,10 +505,7 @@ public abstract class SettingsPreferenceFragment extends InstrumentedPreferenceF
     }
 
     public void finish() {
-        Activity activity = getActivity();
-        if (activity != null) {
-            activity.onBackPressed();
-        }
+        getActivity().onBackPressed();
     }
 
     public boolean startFragment(Fragment caller, String fragmentClass, int titleRes,

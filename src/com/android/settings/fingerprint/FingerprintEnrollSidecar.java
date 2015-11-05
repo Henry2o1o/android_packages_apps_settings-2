@@ -24,14 +24,12 @@ import android.os.Bundle;
 import android.os.CancellationSignal;
 import android.os.Handler;
 
-import com.android.internal.logging.MetricsLogger;
 import com.android.settings.ChooseLockSettingsHelper;
-import com.android.settings.InstrumentedFragment;
 
 /**
  * Sidecar fragment to handle the state around fingerprint enrollment.
  */
-public class FingerprintEnrollSidecar extends InstrumentedFragment {
+public class FingerprintEnrollSidecar extends Fragment {
 
     private int mEnrollmentSteps = -1;
     private int mEnrollmentRemaining = 0;
@@ -130,7 +128,7 @@ public class FingerprintEnrollSidecar extends InstrumentedFragment {
         @Override
         public void onEnrollmentError(int errMsgId, CharSequence errString) {
             if (mListener != null) {
-                mListener.onEnrollmentError(errMsgId, errString);
+                mListener.onEnrollmentError(errString);
             }
         }
     };
@@ -142,14 +140,9 @@ public class FingerprintEnrollSidecar extends InstrumentedFragment {
         }
     };
 
-    @Override
-    protected int getMetricsCategory() {
-        return MetricsLogger.FINGERPRINT_ENROLL_SIDECAR;
-    }
-
     public interface Listener {
         void onEnrollmentHelp(CharSequence helpString);
-        void onEnrollmentError(int errMsgId, CharSequence errString);
+        void onEnrollmentError(CharSequence errString);
         void onEnrollmentProgressChange(int steps, int remaining);
     }
 }
