@@ -2448,6 +2448,14 @@
         <activity android:name=".notificationlight.NotificationLightSettings" />
         <activity android:name=".notificationlight.BatteryLightSettings" />
 
+        <receiver android:name="com.tesla.teslacoil.fragments.IntentReceiver" >
+            <intent-filter>
+                 <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.tesla.teslacoil.fragments.CheckHosts" />
+
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title"
                 android:exported="false"
