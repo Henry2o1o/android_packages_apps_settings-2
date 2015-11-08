@@ -25,6 +25,7 @@
     <!-- Customization -->
     <string name="header_category_custom">Personalization</string>
     <string name="custom_title">Tesla Coil</string>
+    <string name="performance_settings">Kernel Adiutor</string>
 
 <!-- Development Settings -->
     <!-- Dev Options Enabled by Default -->
