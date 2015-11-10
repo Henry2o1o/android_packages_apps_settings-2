@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2014 The CyanogenMod Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- About phone screen, Tesla version -->
+    <string name="tesla_version">Tesla Version</string>
+    <string name="mod_version_default">Unbekannt</string>
+    <string name="model_name">Model Name</string>
+
+    <!-- About phone screen, build date -->
+    <string name="build_date">Build Datum</string>
+    <string name="build_date_default">2014-01-01-0000</string>
+
+    <!-- Customization -->
+    <string name="header_category_custom">Personalisierung</string>
+
+<!-- Development Settings -->
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">Nicht nötig, Entwickleroptionen sind Standardmäßig aktiviert.</string>
+
+    <!-- GCC version info -->
+    <string name="sm_android">Gcc Android</string>
+    <string name="sm_android_default">Unbekannt</string>
+    <string name="sm_kernel">Gcc Kernel</string>
+    <string name="sm_kernel_default">Unbekannt</string>
+
+    <!-- GCC build flags info -->
+    <string name="sm_flags">Build Flags</string>
+    <string name="sm_flags_default">Keine</string>
+
+    <!-- Notification light dialogs -->
+    <string name="edit_light_settings">Licht Einstellungen bearbeiten</string>
+    <string name="pulse_speed_title">Puls Länge und Geschwindigkeit</string>
+   <string name="custom_time">Benutzer</string>
+    <string name="dialog_delete_title">Löschen</string>
+    <string name="dialog_delete_message">Ausgewähletes entfernen?</string>
+    <string name="profiles_add">Hinzufügen</string>
+    <string name="profile_choose_app">App auswählen</string>
+    <string name="profile_reset_title">zurücksetzen</string>
+
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_always_on">Immer an</string>
+    <string name="pulse_length_very_short">Sehr kurz</string>
+    <string name="pulse_length_short">Kurz</string>
+    <string name="pulse_length_long">Lang</string>
+    <string name="pulse_length_very_long">Sehr lang</string>
+    <string name="pulse_speed_very_fast">Sehr schnell</string>
+    <string name="pulse_speed_fast">Schnell</string>
+    <string name="pulse_speed_slow">Langsam</string>
+    <string name="pulse_speed_very_slow">Sehr langsam</string>
+
+    <!-- Battery light settings -->
+    <string name="battery_light_title">Batterie Licht</string>
+    <string name="battery_low_pulse_title">Pulsieren wenn Batterie niedrig</string>
+    <string name="battery_light_list_title">Farbe</string>
+    <string name="battery_light_low_color_title">Batterie niedrig</string>
+    <string name="battery_light_medium_color_title">Laden</string>
+    <string name="battery_light_full_color_title">Aufgeladen</string>
+
+    <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_title">Benachrichtigungslicht</string>
+    <string name="notification_light_general_title">Allgemein</string>
+    <string name="notification_light_use_custom">Verwende benutzerdefinierte Werte</string>
+    <string name="notification_light_default_value">Standard</string>
+    <string name="notification_light_missed_call_title">verpasster Anruf</string>
+    <string name="notification_light_screen_on">Leuchten mit Bildschirm auf</string>
+
+    <!-- Keyboard and Input methods  -->
+    <string name="title_keyboard_input">Erweiterte Optionen</string>
+    <string name="disable_fullscreen_keyboard_title">Deaktivieren der Vollbild-Tastatur</string>
+    <string name="disable_fullscreen_keyboard_summary">Landscape-Tastatur wird nie den gesamten Bildschirm einnehmen</string>
+    <string name="volume_key_cursor_control_title">Lautstärke-Taste Cursor-Steuerung</string>
+    <string name="volume_key_cursor_control_on">Lautstärke auf / ab bewegt den Cursor nach links / rechts</string>
+    <string name="volume_key_cursor_control_on_reverse">Lautstärke auf / ab bewegt den Cursor nach rechts / links</string>
+    <string name="keyboard_rotation_toggle_title">Auto Tatsatur Rotation</string>
+    <string name="keyboard_rotation_toggle_summary">Automatisch drehen wenn Tastatur erscheint</string>
+    <string name="keyboard_rotation_timeout_title">Auto-Rotation Timeout</string>
+    <string name="keyboard_rotation_timeout_summary">Deaktiviert den Auto-Rotation-Sensor <xliff:g id="rotate_timeout">%1$s</xliff:g> Sekunden nach ausblenden der Tastatur</string>
+    <string name="keyboard_rotation_dialog">This feature forces auto-rotate to turn on temporarily while the keyboard is shown.  It has no effect when auto-rotate is already enabled.</string>
+    <string name="show_enter_key_title">Enter Taste anzeigen</string>
+    <string name="ime_switcher_notify">Auswahl Benachrichtigungen</string>
+    <string name="ime_switcher_notify_summary">Display-Eingabemethode Auswahl</string>
+    <string name="attention">Achtung</string>
+</resources>
