@@ -92,4 +92,8 @@
     <string name="ime_switcher_notify">Auswahl Benachrichtigungen</string>
     <string name="ime_switcher_notify_summary">Display-Eingabemethode Auswahl</string>
     <string name="attention">Achtung</string>
+
+    <!-- Linked / unlinked notification volume -->
+    <string name="link_volume_option_title">Verknüpfte Klingel und Benachrichtigungslautstärke</string>
+    <string name="notification_volume_option_title">Benachrichtigungslautstärke</string>
 </resources>
