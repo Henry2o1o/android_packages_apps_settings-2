@@ -27,21 +27,21 @@
     <string name="custom_title">Tesla Coil</string>
     <string name="performance_settings">Kernel Adiutor</string>
 
-<!-- Development Settings -->
+    <!-- Development Settings -->
     <!-- Dev Options Enabled by Default -->
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
 
-<!-- UBER GCC version info -->
-    <string name="uber_android">GCC Android</string>
+    <!-- UBER GCC version info -->
+    <string name="uber_android">GCC android</string>
     <string name="uber_android_default">Unknown</string>
-    <string name="uber_kernel">GCC Kernel</string>
+    <string name="uber_kernel">GCC kernel</string>
     <string name="uber_kernel_default">Unknown</string>
 
-<!-- UBER GCC build flags info -->
+    <!-- UBER GCC build flags info -->
     <string name="uber_flags">Build Flags</string>
     <string name="uber_flags_default">None</string>
 
-<!-- Display Settings -->
+    <!-- Display Settings -->
     <!-- Font size sample text -->
     <string name="font_size_sample">Font Size</string>
 
