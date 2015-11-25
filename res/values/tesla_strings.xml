@@ -27,21 +27,21 @@
     <string name="custom_title">Tesla Coil</string>
     <string name="performance_settings">Kernel Adiutor</string>
 
-<!-- Development Settings -->
+    <!-- Development Settings -->
     <!-- Dev Options Enabled by Default -->
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
 
-    <!-- GCC version info -->
-    <string name="sm_android">Gcc android</string>
-    <string name="sm_android_default">Unknown</string>
-    <string name="sm_kernel">Gcc kernel</string>
-    <string name="sm_kernel_default">Unknown</string>
+    <!-- UBER GCC version info -->
+    <string name="uber_android">GCC android</string>
+    <string name="uber_android_default">Unknown</string>
+    <string name="uber_kernel">GCC kernel</string>
+    <string name="uber_kernel_default">Unknown</string>
 
-    <!-- GCC build flags info -->
-    <string name="sm_flags">Build flags</string>
-    <string name="sm_flags_default">None</string>
+    <!-- UBER GCC build flags info -->
+    <string name="uber_flags">Build Flags</string>
+    <string name="uber_flags_default">None</string>
 
-<!-- Display Settings -->
+    <!-- Display Settings -->
     <!-- Font size sample text -->
     <string name="font_size_sample">Font Size</string>
 
@@ -112,6 +112,7 @@
     <string name="notification_light_missed_call_title">Missed call</string>
     <string name="notification_light_voicemail_title">Voicemail</string>
     <string name="notification_light_screen_on">Lights with screen on</string>
+    <string name="allow_lights_title">Lights in do not disturb mode</string>
 
     <!-- Keyboard and Input methods  -->
     <string name="title_keyboard_input">Advanced options</string>
@@ -133,5 +134,34 @@
 
     <!-- Bluetooth settings. A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
     <string name="bluetooth_accept_all_files">Accept all file types</string>
+
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+
+    <!-- Quick Unlock (PIN) -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock the lockscreen automatically when the correct PIN/password is entered</string>
+
+    <!-- Doze notification color invert -->
+    <string name="doze_notification_color_invert_title">Color inversion</string>
+    <string name="doze_notification_color_invert_summary_off">Ambient display notifications will not be inverted. Use for dark themes.</string>
+    <string name="doze_notification_color_invert_summary_on">Ambient display notifications will show as inverted. Use for light/stock theme.</string>
+
+    <!-- Wake on Plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+
+    <!-- Headset Plugged In notification -->
+    <string name="headset_plugged_in_title">Headset Plugged In notification</string>
+    <string name="headset_plugged_in_summary">Enable notification for when the headset is plugged in</string>
+
+    <!-- Media ducking -->
+    <string name="interruptions_ignore_while_media_title">Prevent audio ducking</string>
+    <string name="interruptions_ignore_while_media_summary">Do not reduce media playback volume when a notification arrives</string>
+
+    <!-- Linked / unlinked notification volume -->
+    <string name="link_volume_option_title">Link ring and notification volumes</string>
+    <string name="notification_volume_option_title">Notification volume</string>
 
 </resources>
