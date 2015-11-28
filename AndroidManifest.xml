@@ -2445,6 +2445,9 @@
         <activity android:name="com.tesla.teslacoil.fragments.Recents" />
         <activity android:name=".notificationlight.NotificationLightSettings" />
         <activity android:name=".notificationlight.BatteryLightSettings" />
+        <activity android:name="com.tesla.teslacoil.fragments.Traffic" />
+        <activity android:name="com.tesla.teslacoil.fragments.GestureAnywhereBuilderActivity" />
+        <activity android:name="com.tesla.teslacoil.fragments.GestureAnywhereCreateGestureActivity" />
 
         <receiver android:name="com.tesla.teslacoil.fragments.IntentReceiver" >
             <intent-filter>
