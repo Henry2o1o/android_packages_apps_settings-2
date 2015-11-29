@@ -2456,7 +2456,7 @@
         <activity android:name="com.tesla.teslacoil.fragments.GestureAnywhereBuilderActivity" />
         <activity android:name="com.tesla.teslacoil.fragments.GestureAnywhereCreateGestureActivity" />
 
-        <receiver android:name="com.tesla.teslacoil.fragments.IntentReceiver" >
+        <receiver android:name="com.tesla.teslacoil.fragments.AdBlocker_IntentReceiver" >
             <intent-filter>
                  <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
