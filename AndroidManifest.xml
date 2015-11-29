@@ -1960,6 +1960,13 @@
             </intent-filter>
        </receiver>
 
+        <!-- Hotspot idle -->
+        <service android:name=".wifi.HotspotService" >
+            <intent-filter>
+                <action android:name="com.android.settings.wifi.HotspotService" />
+            </intent-filter>
+        </service>
+
         <!-- Standard picker for widgets -->
         <activity android:name="AppWidgetPickActivity"
                 android:label="@string/widget_picker_title"
@@ -2445,8 +2452,11 @@
         <activity android:name="com.tesla.teslacoil.fragments.Recents" />
         <activity android:name=".notificationlight.NotificationLightSettings" />
         <activity android:name=".notificationlight.BatteryLightSettings" />
+        <activity android:name="com.tesla.teslacoil.fragments.Traffic" />
+        <activity android:name="com.tesla.teslacoil.fragments.GestureAnywhereBuilderActivity" />
+        <activity android:name="com.tesla.teslacoil.fragments.GestureAnywhereCreateGestureActivity" />
 
-        <receiver android:name="com.tesla.teslacoil.fragments.IntentReceiver" >
+        <receiver android:name="com.tesla.teslacoil.fragments.AdBlocker_IntentReceiver" >
             <intent-filter>
                  <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>

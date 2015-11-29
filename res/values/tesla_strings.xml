@@ -132,6 +132,12 @@
     <string name="ime_switcher_notify_summary">Display input method selector notification</string>
     <string name="attention">Attention</string>
 
+    <!-- Android debugging over WiFi -->
+    <string name="adb_over_network">ADB over network</string>
+    <string name="adb_over_network_summary">Enable TCP/IP debugging over network interfaces (Wi-Fi, USB networks). This setting is reset on reboot</string>
+    <!-- Warning for Adb over Network -->
+    <string name="adb_over_network_warning">WARNING: When ADB over network is enabled, your phone is open for intrusions on all connected networks, including GSM data network!\n\nOnly use this feature when you are connected on trusted networks.\n\nDo you really want to enable this function?</string>
+
     <!-- Bluetooth settings. A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
     <string name="bluetooth_accept_all_files">Accept all file types</string>
 
@@ -163,5 +169,23 @@
     <!-- Linked / unlinked notification volume -->
     <string name="link_volume_option_title">Link ring and notification volumes</string>
     <string name="notification_volume_option_title">Notification volume</string>
+
+    <!-- Wi-Fi settings screen, advanced, title for setting the wifi region code. -->
+    <string name="wifi_setting_countrycode_title">Wi-Fi region code</string>
+    <!-- Wi-Fi settings screen, setting summary for setting the wifi region code [CHAR LIMIT=50]-->
+    <string name="wifi_setting_countrycode_summary">Specify the region code for Wi-Fi</string>
+    <!-- Wi-Fi settings screen, error message when the region code could not be set [CHAR LIMIT=50]. -->
+    <string name="wifi_setting_countrycode_error">There was a problem setting the region code.</string>
+    <string name="wifi_setting_countrycode_default">Default</string>
+
+    <!-- Device Hostname -->
+    <string name="device_hostname">Device hostname</string>
+
+    <!-- USB debugging notification -->
+    <string name="adb_notify">USB debugging notify</string>
+    <string name="adb_notify_summary">Display a notification when USB debugging is connected</string>
+
+    <!-- Hotspot idle -->
+    <string name="wifi_hotspot_mode_title">Keep WiFi Hotspot on</string>
 
 </resources>
