@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2015 The Pure Nexus Project
+<!--
+     Copyright (C) 2015 TeamTwisted Project
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -11,9 +12,24 @@
      limitations under the License.
 -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:height="24dp"
-    android:width="24dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
-    <path android:fillColor="?android:attr/colorAccent" android:pathData="M3,5A2,2 0 0,1 5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5C3.89,21 3,20.1 3,19V5M7,18H9L9.35,16H13.35L13,18H15L15.35,16H17.35L17.71,14H15.71L16.41,10H18.41L18.76,8H16.76L17.12,6H15.12L14.76,8H10.76L11.12,6H9.12L8.76,8H6.76L6.41,10H8.41L7.71,14H5.71L5.35,16H7.35L7,18M10.41,10H14.41L13.71,14H9.71L10.41,10Z" />
+    android:width="72.000000dp"
+    android:height="72.000000dp"
+    android:viewportWidth="72.000000"
+    android:viewportHeight="72.000000"
+    android:tint="?android:attr/colorAccent">
+
+    <group
+            android:translateY="72.000000"
+            android:scaleX="0.100000"
+            android:scaleY="-0.100000">
+        <path
+            android:fillColor="@android:color/black"
+            android:pathData="M295 618 c-2 -7 -10 -38 -18 -68 l-13 -55 -52 -3 -52 -3 0 -35 c0 -34 1 -34 44 -34
+l44 0 -15 -60 -15 -60 -49 0 -49 0 0 -35 c0 -34 1 -35 40 -35 22 0 40 -3 40 -7 -1
+-10 -19 -93 -26 -116 -5 -16 -1 -18 32 -15 37 3 37 3 53 68 l16 65 53 3 c59 3 59 4
+37 -78 -8 -30 -15 -56 -15 -58 0 -2 17 -2 37 0 l37 3 14 68 15 67 48 0 49 0 0 35
+c0 34 -1 35 -40 35 -22 0 -40 1 -40 3 1 1 7 27 14 57 l12 55 47 3 c46 3 47 4 47 38
+0 32 -2 34 -35 34 -40 0 -40 2 -21 83 l13 57 -36 0 -37 0 -14 -67 -15 -68 -54 -3
+-54 -3 7 35 c3 20 9 52 12 71 6 34 6 35 -25 35 -17 0 -34 -6 -36 -12z" />
+    </group>
 </vector>
