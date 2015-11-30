@@ -97,4 +97,8 @@
     <!-- Linked / unlinked notification volume -->
     <string name="link_volume_option_title">Verknüpfte Klingel und Benachrichtigungslautstärke</string>
     <string name="notification_volume_option_title">Benachrichtigungslautstärke</string>
+
+    <!-- Headset Plugged In notification -->
+    <string name="headset_plugged_in_title">Headset Plugged In Benachrichtigung</string>
+    <string name="headset_plugged_in_summary">Benachrichtigungen aktivieren wenn das Headset angesteckt ist</string>
 </resources>
