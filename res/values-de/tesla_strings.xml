@@ -75,6 +75,7 @@
     <string name="notification_light_default_value">Standard</string>
     <string name="notification_light_missed_call_title">verpasster Anruf</string>
     <string name="notification_light_screen_on">Leuchten mit Bildschirm auf</string>
+    <string name="allow_lights_title">Licht im nicht stören Modus</string>
 
     <!-- Keyboard and Input methods  -->
     <string name="title_keyboard_input">Erweiterte Optionen</string>
